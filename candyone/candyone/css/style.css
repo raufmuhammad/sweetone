@@ -1,0 +1,112 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #c2a53a;
+    font-family: 'Agbalumo',sans-serif;
+}
+
+header{
+    background: linear-gradient(#f4df62, #c2a53a);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 0px 25px 0px;
+    color: #494141;
+    font-weight: bold;
+}
+header div{
+    height: auto;
+    width: auto;
+    flex-grow: 1;
+    padding-left: 50px;
+}
+header img{
+    height: 90%;
+    width:auto;
+}
+.mandm{
+    font-size: 3rem;
+}
+menu{
+    display: flex;
+    margin-bottom: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+menu li{
+    border-right: solid 2px #ffffff;
+    padding: 0px 10px;
+}
+menu li:last-of-type{
+    border-right: none;
+}
+menu>li>a{
+    color: #4f4b4b;
+    font-weight: bold;
+}
+menu>li>a:hover {
+    color: red; 
+  }
+
+.description{
+        text-align: center;
+        padding: 2em;
+        position: relative;
+        width: 100%;
+        box-sizing: border-box;
+}
+.image-with-shadow {
+    transition: box-shadow 0.3s ease; 
+}
+.image-with-shadow:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+ .background{
+    background: url(../img/10.-MMS-Product-scaled.webp);
+    padding: 15px;
+  }
+
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-content {
+    display: flex;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.company-info {
+    margin-left: 20px;
+}
+
+.contact-form {
+    text-align: center;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    margin: 5px 0;
+    padding: 8px;
+}
