@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: #c2a53a;
+    background: linear-gradient(#f4df62,#c2a53a );
     font-family: 'Agbalumo',sans-serif;
 }
 
@@ -59,10 +59,14 @@ menu>li>a:hover {
         box-sizing: border-box;
 }
 .image-with-shadow {
-    transition: box-shadow 0.3s ease; 
+    transition: box-shadow 0.5s ease; 
 }
 .image-with-shadow:hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
 }
 
 
